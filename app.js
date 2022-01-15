@@ -98,7 +98,7 @@ console.log(roles)
 // const names = people.map(function(item) {
 //     return `<h1>${item.name}</h1>`
 // })
-
+``
 // document.body.innerHTML = names.join('')
 
 // console.log(ages)
