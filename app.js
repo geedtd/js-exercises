@@ -65,17 +65,25 @@
 // let allTotals = realTotal + 4613.81
 // console.log(allTotals)
 
-const people = [
-    {name: 'gerardo', age: 27 , position: 'SWE'},
-    {name: 'Drew', age: 23 , position: 'UI Designer'},
-    {name: 'Mildred', age: 33, position: 'Product Manager'}
-]
+// const people = [
+//     {name: 'gerardo', age: 27 , position: 'SWE'},
+//     {name: 'Drew', age: 23 , position: 'UI Designer'},
+//     {name: 'Mildred', age: 33, position: 'Product Manager'}
+// ]
 
-const roles = people.filter(function(item) {
-    return item.position === 'SWE'
-})
+// const roles = people.filter(function(item) {
+//     return item.position === 'SWE'
+// })
 
-console.log(roles)
+
+
+// function showPerson(item) {
+//     console.log(item.name)
+// }
+
+// people.map(showPerson)
+
+// console.log(roles)
 
 // function showPerson(item) {
 //     console.log(item.name)
@@ -103,3 +111,34 @@ console.log(roles)
 
 // console.log(ages)
 // console.log(newDetails)
+
+const months = [
+'January',
+'February',
+'March',
+'April',   
+'May',
+'June',
+'July',
+'August',
+'October',
+'November',
+'December',
+]
+
+const days = [
+    'Sunday',
+    'Monday',
+    'Tuesday',
+    'Wednesday',
+    'Thursday',
+    'Friday',
+    'Saturday',
+]
+
+const date = new Date();
+const month = date.getMonth();
+console.log(months[month])
+
+const day = date.getDay()
+console.log(days[day])
